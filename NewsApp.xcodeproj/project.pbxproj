@@ -3,23 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		372995502680BC5C009A2639 /* k_restoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3729954F2680BC5C009A2639 /* k_restoApp.swift */; };
-		372995522680BC5C009A2639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372995512680BC5C009A2639 /* ContentView.swift */; };
+		372995502680BC5C009A2639 /* NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3729954F2680BC5C009A2639 /* NewsApp.swift */; };
 		372995542680BC5F009A2639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372995532680BC5F009A2639 /* Assets.xcassets */; };
 		372995572680BC5F009A2639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372995562680BC5F009A2639 /* Preview Assets.xcassets */; };
+		372995632680BD2F009A2639 /* CustomRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372995622680BD2F009A2639 /* CustomRowList.swift */; };
+		372995652680BDA4009A2639 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372995642680BDA4009A2639 /* NewsModel.swift */; };
+		372995682680CAE7009A2639 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 372995672680CAE7009A2639 /* SDWebImage */; };
+		3729956B2680D199009A2639 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3729956A2680D199009A2639 /* SDWebImageSwiftUI */; };
+		3729956E2680D1CF009A2639 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3729956D2680D1CF009A2639 /* SwiftyJSON */; };
+		372995702680D25B009A2639 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3729956F2680D25B009A2639 /* ApiService.swift */; };
+		372995722680D3C0009A2639 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372995712680D3C0009A2639 /* NewsDetail.swift */; };
+		372995742680D3F6009A2639 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372995732680D3F6009A2639 /* NewsList.swift */; };
+		372995762680D838009A2639 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372995752680D838009A2639 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3729954C2680BC5C009A2639 /* k-resto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "k-resto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3729954F2680BC5C009A2639 /* k_restoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = k_restoApp.swift; sourceTree = "<group>"; };
-		372995512680BC5C009A2639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3729954C2680BC5C009A2639 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3729954F2680BC5C009A2639 /* NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp.swift; sourceTree = "<group>"; };
 		372995532680BC5F009A2639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372995562680BC5F009A2639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		372995582680BC5F009A2639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372995622680BD2F009A2639 /* CustomRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowList.swift; sourceTree = "<group>"; };
+		372995642680BDA4009A2639 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		3729956F2680D25B009A2639 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		372995712680D3C0009A2639 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+		372995732680D3F6009A2639 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		372995752680D838009A2639 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3729956E2680D1CF009A2639 /* SwiftyJSON in Frameworks */,
+				3729956B2680D199009A2639 /* SDWebImageSwiftUI in Frameworks */,
+				372995682680CAE7009A2639 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +52,7 @@
 		372995432680BC5B009A2639 = {
 			isa = PBXGroup;
 			children = (
-				3729954E2680BC5C009A2639 /* k-resto */,
+				3729954E2680BC5C009A2639 /* NewsApp */,
 				3729954D2680BC5C009A2639 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +60,24 @@
 		3729954D2680BC5C009A2639 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3729954C2680BC5C009A2639 /* k-resto.app */,
+				3729954C2680BC5C009A2639 /* NewsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3729954E2680BC5C009A2639 /* k-resto */ = {
+		3729954E2680BC5C009A2639 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
-				3729954F2680BC5C009A2639 /* k_restoApp.swift */,
-				372995512680BC5C009A2639 /* ContentView.swift */,
+				372995612680BD12009A2639 /* Utils */,
+				372995602680BCFF009A2639 /* Services */,
+				3729955F2680BCF9009A2639 /* Models */,
+				3729955E2680BCED009A2639 /* Views */,
+				3729954F2680BC5C009A2639 /* NewsApp.swift */,
 				372995532680BC5F009A2639 /* Assets.xcassets */,
 				372995582680BC5F009A2639 /* Info.plist */,
 				372995552680BC5F009A2639 /* Preview Content */,
 			);
-			path = "k-resto";
+			path = NewsApp;
 			sourceTree = "<group>";
 		};
 		372995552680BC5F009A2639 /* Preview Content */ = {
@@ -69,12 +88,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3729955E2680BCED009A2639 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				372995712680D3C0009A2639 /* NewsDetail.swift */,
+				372995732680D3F6009A2639 /* NewsList.swift */,
+				372995752680D838009A2639 /* Profile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3729955F2680BCF9009A2639 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				372995642680BDA4009A2639 /* NewsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		372995602680BCFF009A2639 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3729956F2680D25B009A2639 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		372995612680BD12009A2639 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				372995622680BD2F009A2639 /* CustomRowList.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3729954B2680BC5B009A2639 /* k-resto */ = {
+		3729954B2680BC5B009A2639 /* NewsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3729955B2680BC5F009A2639 /* Build configuration list for PBXNativeTarget "k-resto" */;
+			buildConfigurationList = 3729955B2680BC5F009A2639 /* Build configuration list for PBXNativeTarget "NewsApp" */;
 			buildPhases = (
 				372995482680BC5B009A2639 /* Sources */,
 				372995492680BC5B009A2639 /* Frameworks */,
@@ -84,9 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = "k-resto";
+			name = NewsApp;
+			packageProductDependencies = (
+				372995672680CAE7009A2639 /* SDWebImage */,
+				3729956A2680D199009A2639 /* SDWebImageSwiftUI */,
+				3729956D2680D1CF009A2639 /* SwiftyJSON */,
+			);
 			productName = "k-resto";
-			productReference = 3729954C2680BC5C009A2639 /* k-resto.app */;
+			productReference = 3729954C2680BC5C009A2639 /* NewsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 372995472680BC5B009A2639 /* Build configuration list for PBXProject "k-resto" */;
+			buildConfigurationList = 372995472680BC5B009A2639 /* Build configuration list for PBXProject "NewsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,11 +170,16 @@
 				Base,
 			);
 			mainGroup = 372995432680BC5B009A2639;
+			packageReferences = (
+				372995662680CAE7009A2639 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				372995692680D199009A2639 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				3729956C2680D1CF009A2639 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 3729954D2680BC5C009A2639 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3729954B2680BC5B009A2639 /* k-resto */,
+				3729954B2680BC5B009A2639 /* NewsApp */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372995522680BC5C009A2639 /* ContentView.swift in Sources */,
-				372995502680BC5C009A2639 /* k_restoApp.swift in Sources */,
+				372995652680BDA4009A2639 /* NewsModel.swift in Sources */,
+				372995762680D838009A2639 /* Profile.swift in Sources */,
+				372995702680D25B009A2639 /* ApiService.swift in Sources */,
+				372995742680D3F6009A2639 /* NewsList.swift in Sources */,
+				372995632680BD2F009A2639 /* CustomRowList.swift in Sources */,
+				372995502680BC5C009A2639 /* NewsApp.swift in Sources */,
+				372995722680D3C0009A2639 /* NewsDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		372995472680BC5B009A2639 /* Build configuration list for PBXProject "k-resto" */ = {
+		372995472680BC5B009A2639 /* Build configuration list for PBXProject "NewsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				372995592680BC5F009A2639 /* Debug */,
@@ -316,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3729955B2680BC5F009A2639 /* Build configuration list for PBXNativeTarget "k-resto" */ = {
+		3729955B2680BC5F009A2639 /* Build configuration list for PBXNativeTarget "NewsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3729955C2680BC5F009A2639 /* Debug */,
@@ -326,6 +394,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		372995662680CAE7009A2639 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		372995692680D199009A2639 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		3729956C2680D1CF009A2639 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		372995672680CAE7009A2639 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 372995662680CAE7009A2639 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		3729956A2680D199009A2639 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 372995692680D199009A2639 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3729956D2680D1CF009A2639 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3729956C2680D1CF009A2639 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 372995442680BC5B009A2639 /* Project object */;
 }
