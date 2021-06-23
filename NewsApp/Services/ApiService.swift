@@ -25,7 +25,6 @@ class ApiService: ObservableObject {
             }
             
             let json = try! JSON(data: data!)
-            var index:Int = 1;
             
             for articles in json["articles"] {
                 let title = articles.1["title"].stringValue
@@ -36,9 +35,8 @@ class ApiService: ObservableObject {
                 let url = articles.1["url"].stringValue
                 
                 DispatchQueue.main.async {
-                    self.news.append(NewsModel(id:index, title: title, description: description, image: urlToImage, url: url, publishedAt: datePublished, content: content))
+                    self.news.append(NewsModel(title: title, description: description, image: urlToImage, url: url, publishedAt: datePublished, content: content))
                 }
-                index+=1
             }
             
         }.resume()

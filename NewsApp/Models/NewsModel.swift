@@ -8,7 +8,7 @@
 import Foundation
 
 struct NewsModel: Identifiable {
-    var id : Int
+    var id = UUID()
     var title: String
     var description: String
     var image: String
